@@ -1,0 +1,41 @@
+ *{
+    padding: 0;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./font/static/OpenSans-Regular.ttf);
+}
+
+header{
+    width: 100vw;
+    background-color: #435363;
+    height: 7vh;
+}
+
+.first{
+    display: flex;
+    margin-right: 80px;
+    padding-top: 10px;
+    align-items: center;
+    width: 520px;
+    font-family:font;
+    font-weight: 800px;
+}
+
+.first p{
+    font-size: 20px;
+    color: white;
+}
+
+.pho span{
+    color: white;
+    font-size: 28px;
+}
+
+.pho{
+    display: flex;
+    align-items: center;
+} 
+
