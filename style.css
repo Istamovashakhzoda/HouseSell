@@ -8,6 +8,11 @@
     src: url(./font/static/OpenSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: bold;
+    src: url(./font/static/OpenSans_SemiCondensed-ExtraBold.ttf);
+}
+
 header{
     width: 100vw;
     background-color: #435363;
@@ -39,3 +44,50 @@ header{
     align-items: center;
 } 
 
+section{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    box-shadow: #435363 1px 1px 8px 1px;
+    background-color: white;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.lef{
+    display: flex;
+    align-items: center;
+    color: #435363;
+    font-family: bold;
+}
+
+.lef img{
+width: 60px;
+height: 60px;
+}
+
+.log ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.log a{
+    text-decoration: none;
+    color:#435363;
+    font-size: 19px;
+    font-family: font;
+}
+
+.fo button{
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: font;
+    background-color: #db8721
+}
