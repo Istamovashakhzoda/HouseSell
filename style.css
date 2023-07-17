@@ -186,7 +186,7 @@ height: 60px;
 }
 
 .bulur{
-    height: 60vh;
+    height: 90vh;
     background-color: #435363;
 }
 
@@ -206,4 +206,33 @@ height: 60px;
 
 .succes h1{
     font-size: 43px;
+}
+
+.blu{
+    width: 420px;
+    height: 340px;
+    background-color: #59616f;
+    border-radius:5px;
+}
+
+.blu img{
+    width: 420px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.blu p{
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.bulur button{
+    margin-left: 660px;
+    padding: 12px 19px;
+    background-color: #db8721;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
