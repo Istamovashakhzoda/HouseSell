@@ -242,10 +242,21 @@ height: 60px;
     text-align: center;
 }
 
- 
 i{
     font-size: 40px;
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.typed{
+    height: 15vh;
+    background-color: #101828;
+    color: white;
+}
+
+.typed p{
+    text-align: center;
+    font-size: 45px;
+    font-family: font;
 }
